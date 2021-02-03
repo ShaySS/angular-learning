@@ -8,6 +8,6 @@ export class ServerComponent {
   serverStatus = 'ONLINE';
 
   getServerStatus = () => {
-    return this.serverID;
+    return this.serverStatus;
   };
 }
